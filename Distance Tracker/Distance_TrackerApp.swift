@@ -11,7 +11,7 @@ import SwiftUI
 struct Distance_TrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBarView()
         }
     }
 }

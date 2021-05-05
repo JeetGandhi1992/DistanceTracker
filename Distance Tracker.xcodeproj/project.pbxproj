@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2063CEE7264244BE00318D7D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2063CEE6264244BE00318D7D /* README.md */; };
 		20DE1BA4261AEB82007B0776 /* Distance_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1BA3261AEB82007B0776 /* Distance_TrackerApp.swift */; };
 		20DE1BA6261AEB82007B0776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1BA5261AEB82007B0776 /* ContentView.swift */; };
 		20DE1BA8261AEB85007B0776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20DE1BA7261AEB85007B0776 /* Assets.xcassets */; };
 		20DE1BAB261AEB85007B0776 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20DE1BAA261AEB85007B0776 /* Preview Assets.xcassets */; };
 		20DE1BB6261AEB85007B0776 /* Distance_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1BB5261AEB85007B0776 /* Distance_TrackerTests.swift */; };
 		20DE1BC1261AEB85007B0776 /* Distance_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1BC0261AEB85007B0776 /* Distance_TrackerUITests.swift */; };
+		20DE1BDA261AEBBB007B0776 /* DistanceManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1BD9261AEBBB007B0776 /* DistanceManagerViewModel.swift */; };
+		20DE1BE4261B0A64007B0776 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20DE1BE3261B0A64007B0776 /* HealthKit.framework */; };
+		20DE1BE9261B11F8007B0776 /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1BE8261B11F8007B0776 /* CancelBag.swift */; };
+		20DE1BEF261C3BCC007B0776 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1BEE261C3BCC007B0776 /* TabBarView.swift */; };
+		20DE1BF9261C45E6007B0776 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1BF8261C45E6007B0776 /* JourneyView.swift */; };
+		20DE1BFE261C4635007B0776 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1BFD261C4635007B0776 /* LocationManager.swift */; };
+		20DE1C03261C4AE3007B0776 /* JourneyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1C02261C4AE3007B0776 /* JourneyViewModel.swift */; };
+		20DE1C0B261C4B28007B0776 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1C0A261C4B28007B0776 /* Location.swift */; };
+		20DE1C11261C4B7F007B0776 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1C10261C4B7F007B0776 /* Run.swift */; };
+		20DE1C1C261C8365007B0776 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1C1B261C8365007B0776 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2063CEE6264244BE00318D7D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		20DE1BA0261AEB82007B0776 /* Distance Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Distance Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DE1BA3261AEB82007B0776 /* Distance_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distance_TrackerApp.swift; sourceTree = "<group>"; };
 		20DE1BA5261AEB82007B0776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +57,17 @@
 		20DE1BBC261AEB85007B0776 /* Distance TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Distance TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DE1BC0261AEB85007B0776 /* Distance_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distance_TrackerUITests.swift; sourceTree = "<group>"; };
 		20DE1BC2261AEB85007B0776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20DE1BD9261AEBBB007B0776 /* DistanceManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceManagerViewModel.swift; sourceTree = "<group>"; };
+		20DE1BE1261B0A63007B0776 /* Distance Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Distance Tracker.entitlements"; sourceTree = "<group>"; };
+		20DE1BE3261B0A64007B0776 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		20DE1BE8261B11F8007B0776 /* CancelBag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
+		20DE1BEE261C3BCC007B0776 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		20DE1BF8261C45E6007B0776 /* JourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyView.swift; sourceTree = "<group>"; };
+		20DE1BFD261C4635007B0776 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		20DE1C02261C4AE3007B0776 /* JourneyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyViewModel.swift; sourceTree = "<group>"; };
+		20DE1C0A261C4B28007B0776 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		20DE1C10261C4B7F007B0776 /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		20DE1C1B261C8365007B0776 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20DE1BE4261B0A64007B0776 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +103,7 @@
 				20DE1BB4261AEB85007B0776 /* Distance TrackerTests */,
 				20DE1BBF261AEB85007B0776 /* Distance TrackerUITests */,
 				20DE1BA1261AEB82007B0776 /* Products */,
+				20DE1BE2261B0A64007B0776 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +120,13 @@
 		20DE1BA2261AEB82007B0776 /* Distance Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				2063CEE6264244BE00318D7D /* README.md */,
+				20DE1BF4261C3D71007B0776 /* Health */,
+				20DE1BF3261C3D60007B0776 /* Map */,
+				20DE1BED261C3B4E007B0776 /* TabBar View */,
+				20DE1BE1261B0A63007B0776 /* Distance Tracker.entitlements */,
 				20DE1BA3261AEB82007B0776 /* Distance_TrackerApp.swift */,
-				20DE1BA5261AEB82007B0776 /* ContentView.swift */,
+				20DE1BE8261B11F8007B0776 /* CancelBag.swift */,
 				20DE1BA7261AEB85007B0776 /* Assets.xcassets */,
 				20DE1BAC261AEB85007B0776 /* Info.plist */,
 				20DE1BA9261AEB85007B0776 /* Preview Content */,
@@ -128,6 +158,52 @@
 				20DE1BC2261AEB85007B0776 /* Info.plist */,
 			);
 			path = "Distance TrackerUITests";
+			sourceTree = "<group>";
+		};
+		20DE1BE2261B0A64007B0776 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20DE1BE3261B0A64007B0776 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20DE1BED261C3B4E007B0776 /* TabBar View */ = {
+			isa = PBXGroup;
+			children = (
+				20DE1BEE261C3BCC007B0776 /* TabBarView.swift */,
+			);
+			path = "TabBar View";
+			sourceTree = "<group>";
+		};
+		20DE1BF3261C3D60007B0776 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				20DE1C0F261C4B6E007B0776 /* Models */,
+				20DE1BF8261C45E6007B0776 /* JourneyView.swift */,
+				20DE1C02261C4AE3007B0776 /* JourneyViewModel.swift */,
+				20DE1BFD261C4635007B0776 /* LocationManager.swift */,
+				20DE1C1B261C8365007B0776 /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		20DE1BF4261C3D71007B0776 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				20DE1BD9261AEBBB007B0776 /* DistanceManagerViewModel.swift */,
+				20DE1BA5261AEB82007B0776 /* ContentView.swift */,
+			);
+			path = Health;
+			sourceTree = "<group>";
+		};
+		20DE1C0F261C4B6E007B0776 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20DE1C0A261C4B28007B0776 /* Location.swift */,
+				20DE1C10261C4B7F007B0776 /* Run.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2063CEE7264244BE00318D7D /* README.md in Resources */,
 				20DE1BAB261AEB85007B0776 /* Preview Assets.xcassets in Resources */,
 				20DE1BA8261AEB85007B0776 /* Assets.xcassets in Resources */,
 			);
@@ -260,6 +337,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				20DE1BA6261AEB82007B0776 /* ContentView.swift in Sources */,
+				20DE1C03261C4AE3007B0776 /* JourneyViewModel.swift in Sources */,
+				20DE1BDA261AEBBB007B0776 /* DistanceManagerViewModel.swift in Sources */,
+				20DE1C1C261C8365007B0776 /* MapView.swift in Sources */,
+				20DE1C11261C4B7F007B0776 /* Run.swift in Sources */,
+				20DE1BE9261B11F8007B0776 /* CancelBag.swift in Sources */,
+				20DE1C0B261C4B28007B0776 /* Location.swift in Sources */,
+				20DE1BFE261C4635007B0776 /* LocationManager.swift in Sources */,
+				20DE1BF9261C45E6007B0776 /* JourneyView.swift in Sources */,
+				20DE1BEF261C3BCC007B0776 /* TabBarView.swift in Sources */,
 				20DE1BA4261AEB82007B0776 /* Distance_TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Distance Tracker/Distance Tracker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Distance Tracker/Preview Content\"";
 				DEVELOPMENT_TEAM = KQNMXL5GP4;
@@ -439,6 +526,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Distance Tracker/Distance Tracker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Distance Tracker/Preview Content\"";
 				DEVELOPMENT_TEAM = KQNMXL5GP4;
