@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2063CEE7264244BE00318D7D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2063CEE6264244BE00318D7D /* README.md */; };
+		2063CEF22642458E00318D7D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2063CEF12642458E00318D7D /* README.md */; };
 		20DE1BA4261AEB82007B0776 /* Distance_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1BA3261AEB82007B0776 /* Distance_TrackerApp.swift */; };
 		20DE1BA6261AEB82007B0776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE1BA5261AEB82007B0776 /* ContentView.swift */; };
 		20DE1BA8261AEB85007B0776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20DE1BA7261AEB85007B0776 /* Assets.xcassets */; };
@@ -44,7 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2063CEE6264244BE00318D7D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2063CEF12642458E00318D7D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		20DE1BA0261AEB82007B0776 /* Distance Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Distance Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DE1BA3261AEB82007B0776 /* Distance_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distance_TrackerApp.swift; sourceTree = "<group>"; };
 		20DE1BA5261AEB82007B0776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		20DE1BA2261AEB82007B0776 /* Distance Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				2063CEE6264244BE00318D7D /* README.md */,
+				2063CEF12642458E00318D7D /* README.md */,
 				20DE1BF4261C3D71007B0776 /* Health */,
 				20DE1BF3261C3D60007B0776 /* Map */,
 				20DE1BED261C3B4E007B0776 /* TabBar View */,
@@ -309,7 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2063CEE7264244BE00318D7D /* README.md in Resources */,
+				2063CEF22642458E00318D7D /* README.md in Resources */,
 				20DE1BAB261AEB85007B0776 /* Preview Assets.xcassets in Resources */,
 				20DE1BA8261AEB85007B0776 /* Assets.xcassets in Resources */,
 			);
